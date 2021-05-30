@@ -1,9 +1,7 @@
 <!-- See http://www.sublimetext.com/docs/snippets for more information -->
 <snippet>
-    <content><![CDATA[
-{% $1 %}
-]]> </content>
-    <tabTrigger>%</tabTrigger>
+    <content><![CDATA[{% raw $1 %}$2{% endraw %}]]></content>
+    <tabTrigger>raw</tabTrigger>
     <scope>text.html.liquid</scope>
-    <description>tag</description>
+    <description>raw</description>
 </snippet>

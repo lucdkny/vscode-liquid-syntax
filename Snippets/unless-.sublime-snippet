@@ -1,11 +1,11 @@
 <!-- See http://www.sublimetext.com/docs/snippets for more information -->
 <snippet>
     <content><![CDATA[
-{% if $1 %}
-    $2
-{% endif %}
+{%- unless $1 -%}${2:
+    }$3${2:
+}{%- endunless -%}
 ]]> </content>
-    <tabTrigger>if</tabTrigger>
+    <tabTrigger>unless-</tabTrigger>
     <scope>text.html.liquid</scope>
-    <description>if</description>
+    <description>unless</description>
 </snippet>

@@ -1,9 +1,7 @@
 <!-- See http://www.sublimetext.com/docs/snippets for more information -->
 <snippet>
-    <content><![CDATA[
-{% $1 %}
-]]> </content>
-    <tabTrigger>%</tabTrigger>
+    <content><![CDATA[{%- endfor -%}]]></content>
+    <tabTrigger>endfor-</tabTrigger>
     <scope>text.html.liquid</scope>
-    <description>tag</description>
+    <description>endfor-</description>
 </snippet>
